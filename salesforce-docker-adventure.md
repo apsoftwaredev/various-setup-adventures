@@ -69,7 +69,7 @@ npm --global --quiet --no-progress install \
    
 ```
 
-I added this to the path:
+I added this to the path, athough may not be necessary:
 ```
 /home/node/.nvm/versions/node/v14.17.5/bin
 ```
