@@ -1,4 +1,4 @@
-Here is what I did to set up the sfdx environment. 
+Here is what I did to set up the sfdx environment using docker. 
 
 You can test it in the salesforce docker (google instructions for installing docker. https://www.docker.com/  I also use WLS2, but that isn't necessary)
 ```
