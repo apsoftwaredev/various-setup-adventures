@@ -6,7 +6,7 @@ docker pull salesforce/salesforcedx:latest-rc-full
 docker run -it salesforce/salesforcedx:latest-rc-full
 ```
 
-Then started the container and attached to it with vscode using the docker extension
+Then after starting the container I attached to it with vscode using the docker extension. (right click on the running individual container in vscode docker extension, select "Attach Visual Studio Code" 
 
 That is all that is needed.  The rest here are just some optional preferences.
 
