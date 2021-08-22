@@ -93,3 +93,10 @@ I think that is right. Please feel free to correct me or add to it in the issues
 The nice thing about the docker setup is that if you mess something up in your setup or some bad code is executed, it doesn't harm your system, it is is contained in the container.  You can just delete it or roll back the container to an earlier commit and keep on going. It also makes it easier to share development environments and test different system setups with different versions. Plus, you develop in a linux environment, which is better.
 
 Also, I use windows terminal for the terminal in vscode (google using windows terminal in vscode if you would like to try that).
+
+to roll back to an earlier docker commit
+```
+docker ps -a
+docker history <container name>
+docker tag <commitimageIdtoroll back to> <imagename>:latest
+```
