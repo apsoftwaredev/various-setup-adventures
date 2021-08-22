@@ -10,16 +10,16 @@ Then started the container and attached to it with vscode using the docker exten
 
 That is all that is needed.  The rest here are just some optional preferences.
 
-(after setting up zsh https://ohmyz.sh/, again optional)
+(after setting up zsh https://ohmyz.sh/, again optional) (Note: run these commands following in the docker container terminal in VSCODE, not some other command prompt)
 ```
 apt-get update && apt-get upgrade -y
 apt-get install zsh git wget nano
 chsh -s /usr/bin/zsh root
 
 ```
-restart terminal, if you use zsh you will want to change the docker command to use zsh instead of bash, or can type zsh in the bash prompt and it will switch when you startup
+restart terminal, if you use zsh you will want to change the docker command to use zsh instead of bash, or can type zsh in the bash prompt and it will switch when you startup. or add the zsh to the ~/.bshrc file, although that makes it more difficult to switch back to bash if you want
 then uninstalled the nodejs they have to use nvm (note: you do not have to use nvm, nodejs is already installed, I just wanted to use nvm instead because it is easier to switch node versions)
-(Note: run these commands in the docker container terminal in VSCODE, not some other command prompt)
+
 I believe I ran this:
 
 ```
