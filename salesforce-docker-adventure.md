@@ -65,7 +65,7 @@ nvm --version
 nvm install 14.17.5
 npm install --global sfdx-cli@latest-rc  
 ```
- (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version).  If you try to install the nvm in the root npm gives permission errors, so you have to use /home/node or some other location to install the global packages. npm just doesn't like it when you use the /root folder for home
+ (note: see [salesforce installation instructions](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm#sfdx_setup_install_cli_npm) for using or switching to the stable npm sfdx version instead of the release candidate rc version).  If you try to install the nvm in the root npm gives permission errors, so you have to use /home/node or some other location to install the global packages. npm just doesn't like it when you use the /root folder for home
 
 
 
