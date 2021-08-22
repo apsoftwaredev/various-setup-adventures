@@ -35,7 +35,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 ```
 
-(note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
+added the following to the /root/.zshrc
 
 ```
 export NVMHOME="/home/node"
@@ -54,7 +54,7 @@ nvm --version
 nvm install 14.17.5
 npm install --global sfdx-cli@latest-rc  
 ```
-If you try to install the nvm in the root it gives permission errors so you have to make a /home/node to install the global packages
+ (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version).  If you try to install the nvm in the root it gives permission errors so you have to make a /home/node to install the global packages
 
 
 
