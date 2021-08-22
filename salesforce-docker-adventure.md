@@ -83,7 +83,7 @@ docker image ls   # see that all is good
  docker push <dockeusername>/<imagename>:latest  #note you do not include the <> characters  in commands
  ```
 
-I think that is right. Please correct me if I'm doing something incorrectly. I'm sure it can be simplified.  Some of the docker commands are redundant I think. Also, you can set env variables when running the docker command.  If I have time, I'll make a docker-compose file that sets it all up in one command, unless someone else wants to do that.  That would be nice to have and they aren't very difficult to make.
+I think that is right. Please feel free to correct me or add to it in the issues and comments, if I'm doing something incorrectly. I'm sure it can be simplified.  Some of the docker commands are redundant I think. Also, you can set env variables when running the docker command. Some of the extensions are a little finicky, but you can submit issues and help those developers. If I have time, I'll make a docker-compose file that sets it all up in one command, unless someone else wants to do that.  That would be nice to have and they aren't very difficult to make.
  
  One other thing I have noticed with this setup that took some time to unravel, to log in to the org I had to use the the `sfdx auth:device:login` and copy and paste the code into the browser.  then  `sfdx force:org:display` to get the session info.  Then copy that info into the vscode command palette ctl+shft+p SFDX authorize Org using session ID". and insert the access token when it asks for the session Id.  
 
