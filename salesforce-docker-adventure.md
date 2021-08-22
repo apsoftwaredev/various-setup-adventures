@@ -104,3 +104,5 @@ docker ps -a
 docker history <container name>
 docker tag <commitimageIdtoroll back to> <imagename>:latest
 ```
+
+recference: https://github.com/salesforcecli/sfdx-cli
