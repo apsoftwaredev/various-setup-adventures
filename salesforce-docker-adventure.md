@@ -17,7 +17,8 @@ apt-get install zsh git wget nano
 chsh -s /usr/bin/zsh root
 
 ```
-restart terminal, if you use zsh you will want to change the docker command to use zsh instead of bash, or can type zsh in the bash prompt and it will switch when you startup. or add the zsh to the ~/.bshrc file, although that makes it more difficult to switch back to bash if you want
+restart terminal, if you use zsh you will want to change the docker command to use zsh instead of bash, or can type zsh in the bash prompt and it will switch when you startup. or add the zsh to the ~/.bshrc file, although that makes it more difficult to switch back to bash if you want.
+
 then uninstalled the nodejs they have to use nvm (note: you do not have to use nvm, nodejs is already installed, I just wanted to use nvm instead because it is easier to switch node versions)
 
 I believe I ran this:
