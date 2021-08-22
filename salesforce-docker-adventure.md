@@ -46,7 +46,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 ```
 
-added the following to the /root/.zshrc
+added the following to the /root/.zshrc, you can use nano to edit it, or open the file in vscode
 
 ```
 export NVMHOME="/home/node"
