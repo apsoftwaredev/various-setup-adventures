@@ -26,7 +26,7 @@ rm -rf /usr/local/bin/node*
 Whatever the best way to remove nodejs....
 then google the instructions for setting up the nvm current version:
 ```
-HOME=/home/node   # create it if it doesn't eist
+HOME=/home/node   # create it if it doesn't eist, mkdir /home/node
 USER=node
 cd ~
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
