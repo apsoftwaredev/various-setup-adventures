@@ -118,4 +118,13 @@ docker tag <commitimageIdtoroll back to> <imagename>:latest
 
 recference: https://github.com/salesforcecli/sfdx-cli
 
-additional setup: [Connecting to github with ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+some other helpful links for additional setup:
+
+[Connecting to github with ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+
+[https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent]
+(https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+[github vscode SSH setup guide](https://awsm.page/git/use-github-with-ssh-complete-guide-including-vscode-setup/)
+
+[vscode containers advanced](https://code.visualstudio.com/docs/remote/containers-advanced)
