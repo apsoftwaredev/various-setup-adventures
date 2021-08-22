@@ -36,7 +36,7 @@ nvm install 14.17.5
 npm install --global sfdx-cli@latest-rc  
 ```
 
-then I added this to my .zshrc (after setting up zsh) (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
+then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/) (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
 
 ```
 export NVMHOME="/home/node"
@@ -88,3 +88,5 @@ I think that is right. Please correct me if I'm doing something incorrectly. I'm
  One other thing I have noticed with this setup that took some time to unravel, to log in to the org I had to use the the `sfdx auth:device:login` and copy and paste the code into the browser.  then  `sfdx force:org:display` to get the session info.  Then copy that info into the vscode command palette ctl+shft+p SFDX authorize Org using session ID". and insert the access token when it asks for the session Id.  
 
 The nice thing about the docker setup is that if you mess something up in your setup or some bad code is executed, it doesn't harm your system, it is is contained in the container.  You can just delete it or roll back the container to an earlier commit and keep on going. It also makes it easier to share development environments and test different system setups with different versions. Plus, you develop in a linux environment, which is better.
+
+Also, I use windows terminal for the terminal in vscode (google it).
