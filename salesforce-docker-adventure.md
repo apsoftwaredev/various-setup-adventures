@@ -84,6 +84,7 @@ docker image ls   # see that all is good
  ```
 
 I think that is right. Please correct me if I'm doing something incorrectly. I'm sure it can be simplified.  Some of the docker commands are redundant I think. Also, you can set env variables when running the docker command.  If I have time, I'll make a docker-compose file that sets it all up in one command, unless someone else wants to do that.  That would be nice to have and they aren't very difficult to make.
+ 
  One other thing I have noticed with this setup that took some time to unravel, to log in to the org I had to use the the `sfdx auth:device:login` and copy and paste the code into the browser.  then  `sfdx force:org:display` to get the session info.  Then copy that info into the vscode command palette ctl+shft+p SFDX authorize Org using session ID". and insert the access token when it asks for the session Id.  
 
-The nice thing about the docker setup is that if you screw something up in your setup or some bad code is executed, it doesn't harm your system, it is is contained in the container.  You can just delete it or roll back the container to an earlier commit and keep on going. It also makes it easier to share development environments and test different system setups with different versions.
+The nice thing about the docker setup is that if you mess something up in your setup or some bad code is executed, it doesn't harm your system, it is is contained in the container.  You can just delete it or roll back the container to an earlier commit and keep on going. It also makes it easier to share development environments and test different system setups with different versions. Plus, you develop in a linux environment, which is better.
