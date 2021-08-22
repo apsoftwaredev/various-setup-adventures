@@ -70,7 +70,7 @@ npm install --global sfdx-cli@latest-rc
 
 
 ```
- PATH="/home/node/.npm-global/bin:${PATH}" 
+PATH="/home/node/.npm-global/bin:${PATH}" 
 NPM_CONFIG_PREFIX="/home/node/.npm-global"
 mkdir -p "${NPM_CONFIG_PREFIX}/lib"  
 npm --global config set user "${USER}" \  
@@ -92,13 +92,13 @@ go on docker hub or whatever place you upload your containers (I'm on docker hub
 
 Once you have your docker container running on your computer (note do not run these following commands in the container. use whatever terminal you used to start the container. I was starting the container on WSL2).
 ```
+docker login -u <username>
 docker ps  #to get the container id
 docker commit -m "setup and everything working fine" -a "Your Name" <container ID>  <name of your image (same name as the name you chose to give your private repository on dockerhub)>
 docker image ls   
 docker tag <imageName> <dockerhubusername>/<name of your image>:latest 
 docker image ls   # see that all is good
- docker login -u <username>
- docker push <dockeusername>/<imagename>:latest  #note you do not include the <> characters  in commands
+docker push <dockeusername>/<imagename>:latest  #note you do not include the <> characters  in commands
  ```
 
 I think that is right. Please feel free to correct me or add to it in the issues and comments, if I'm doing something incorrectly. I'm sure it can be simplified.  Some of the docker commands are redundant I think. Also, you can set env variables when running the docker command. Some of the extensions are a little finicky, but you can submit issues and help those developers. If I have time, I'll make a docker-compose file that sets it all up in one command, unless someone else wants to do that.  That would be nice to have and they aren't very difficult to make.
