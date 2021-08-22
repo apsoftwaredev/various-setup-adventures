@@ -30,10 +30,7 @@ HOME=/home/node
 USER=node
 cd ~
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
-HOME=/root/   
-nvm --version 
-nvm install 14.17.5
-npm install --global sfdx-cli@latest-rc  
+
 ```
 
 then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/) (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
@@ -42,10 +39,16 @@ then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/) (note: s
 export NVMHOME="/home/node"
 export NVM_DIR="/home/node/.nvm"
 export NODE_PATH="/home/node/.nvm/versions/node/v14.17.5/bin/node"
-export NODE_ENV="Development"
+export NODE_ENV="development"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${NVMHOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvmexport NVM_DIR="/home/node/.nvm"
 
+
+source /home/node/.zshrc
+HOME=/root/   
+nvm --version 
+nvm install 14.17.5
+npm install --global sfdx-cli@latest-rc  
 ```
 If you try to install the nvm in the root it gives permission errors so you have to make a /home/node to install the global packages
 
