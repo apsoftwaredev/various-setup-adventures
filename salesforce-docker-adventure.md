@@ -10,7 +10,7 @@ Then started the container and attached to it with vscode using the docker exten
 
 That is all that is needed.  The rest here are just some optional preferences.
 
-then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/)
+(after setting up zsh https://ohmyz.sh/, again optional)
 
 then uninstalled the nodejs they have to use nvm (note: you do not have to use nvm, nodejs is already installed, I just wanted to use nvm instead because it is easier to switch node versions)
 (Note: run these commands in the docker container terminal in VSCODE, not some other command prompt)
