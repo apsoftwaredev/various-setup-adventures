@@ -117,3 +117,4 @@ docker tag <commitimageIdtoroll back to> <imagename>:latest
 ```
 
 recference: https://github.com/salesforcecli/sfdx-cli
+additional setup: [Connecting to github with ssh](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
