@@ -10,6 +10,8 @@ Then started the container and attached to it with vscode using the docker exten
 
 That is all that is needed.  The rest here are just some optional preferences.
 
+then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/)
+
 then uninstalled the nodejs they have to use nvm (note: you do not have to use nvm, nodejs is already installed, I just wanted to use nvm instead because it is easier to switch node versions)
 (Note: run these commands in the docker container terminal in VSCODE, not some other command prompt)
 I believe I ran this:
@@ -33,7 +35,7 @@ wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 ```
 
-then I added this to my .zshrc (after setting up zsh https://ohmyz.sh/) (note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
+(note: see salesforce installation instructions for using or switching to the stable npm sfdx version instead of the release candidate rc version)
 
 ```
 export NVMHOME="/home/node"
@@ -43,7 +45,9 @@ export NODE_ENV="development"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${NVMHOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvmexport NVM_DIR="/home/node/.nvm"
 
-
+```
+back to the command line in container after adding that to the /root/.zshrc, or /root/.bshrc if using bash
+```
 source /home/node/.zshrc
 HOME=/root/   
 nvm --version 
