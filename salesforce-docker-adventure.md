@@ -1,6 +1,6 @@
 Here is what I did to set up the sfdx environment. 
 
-You can test it in the salesforce docker (google instructions for installing docker. I also use WLS2, but that isn't necessary)
+You can test it in the salesforce docker (google instructions for installing docker. https://www.docker.com/  I also use WLS2, but that isn't necessary)
 ```
 docker pull salesforce/salesforcedx:latest-rc-full
 docker run -it salesforce/salesforcedx:latest-rc-full
