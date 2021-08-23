@@ -128,4 +128,4 @@ some other helpful links for additional setup:
 
 [vscode containers advanced](https://code.visualstudio.com/docs/remote/containers-advanced)
 
-ps. don't forget to give stars on repos if you found something helpful there. Also, don't forget to give ratings to your vscode extensions, and upvote responses and questions on stackexchange that were helpful. It encourages more helpful posts and development of the extensions.
+ps. don't forget to give stars on repos if you found something helpful there. Also, don't forget to give ratings to your vscode extensions, and upvote responses and questions on stackexchange that were helpful. It encourages more helpful posts and development of the extensions. And if you use any open source software and can contribue something, such as reporting an issue or providing a suggestion, or even making a small donation, it all adds up for the developers and improves the tools that are available.
