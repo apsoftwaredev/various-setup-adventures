@@ -127,3 +127,5 @@ some other helpful links for additional setup:
 [github vscode SSH setup guide](https://awsm.page/git/use-github-with-ssh-complete-guide-including-vscode-setup/)
 
 [vscode containers advanced](https://code.visualstudio.com/docs/remote/containers-advanced)
+
+ps. don't forget to give stars on repos if you found something helpful.  It encourages more helpful posts.
